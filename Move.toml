@@ -1,0 +1,16 @@
+[package]
+name = "blockchain_ticket_resale_platform"
+version = "1.0.0"
+authors = []
+
+[addresses]
+BlockchainTicketResalePlateform = '0xe8cbfb898322223d549b01c5b44808c311a73edbc1c0051968cc5bc674a980be'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
